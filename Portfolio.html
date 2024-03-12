@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://kit.fontawesome.com/26d0867eb9.js" crossorigin="anonymous"></script>
+    <link href="Portfolio.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="Header">
+        <div class="Container">
+            <nav>
+                <img src="photo/Ajitesh-Pawar (1)-PhotoRoom.png-PhotoRoom.png" class="logo" />
+
+                <ul>
+                    <li><a href="#Header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Mechanical Engineering with IT Specialization</p>
+                <h1>Hi, I'm <span>Ajitesh Pawar</span><br /> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo/WhatsApp Image 2024-03-11 at 5.39.42 PM.jpeg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p>
+                        To actively pursue and secure a full-time position that not only presents professional
+                        challenges but also allows me to utilize and enhance my exceptional interpersonal skills,
+                        effective time management, and strong problem-solving abilities. I am eager to contribute
+                        my diverse skill set to a dynamic work environment and thrive in an atmosphere that values
+                        innovation and continuous learning.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education', event)">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>MySQL</span><br /></li>
+                            <li><span>C#, OOPS Language</span><br /></li>
+                            <li><span>HTML,CSS,Bootstrap, JavaScript & JQuery</span><br /></li>
+                            <li><span>Ado.Net, Asp.Net</span><br /></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023 - Current</span><br />Software Development Course(Full-Stack Development)</li>
+                            <li><span>2023</span><br />Bachelor of Engineering (BE in Mechanical Engineering)</li>
+                            <li><span>2020</span><br />Diploma in Mechanical Engineering</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Pharma Data Assessment - SQL Project</h2>
+                    <p>
+                        Proficiently utilized SQL functions in the project, including SELECT for data
+                        retrieval, COUNT for record counting, SUM for total value calculation, DISTINCT for
+                        unique values, AVG for averaging, ORDER BY for sorting, and GROUP BY for result-set
+                        grouping.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <h2>Tic Tac Toe</h2>
+                    <p>
+                        Developed a Tic Tac Toe game by utilizing HTML, CSS, and JavaScript functionalities. 
+                        HTML was employed for structuring the game board and creating interactive elements, 
+                        CSS was used to style the game board and UI elements, and JavaScript was utilized 
+                        for implementing game logic, handling user interactions, and updating the game state 
+                        dynamically. This combination ensured a seamless and interactive gaming experience 
+                        for players.
+                        <a href="#">Learn more</a>
+</div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Calculator</h2>
+                    <p>
+                        Developed a Basic Calculator using HTML, CSS, and JavaScript! This calculator offers a
+                        friendly interface with buttons for digits, basic arithmetic operations, and extra
+                        features like decimal points and a clear button. What's more? It's not just
+                        mouse-friendly – you can also use your keyboard for a seamless number-crunching
+                        experience! Designed to adapt effortlessly to different devices, check it out and start crunching numbers!
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ajiteshpawar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8369143133</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ajitesh-pawar-76908a1b5/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="photo/Ajitesh CV 1.pdf" download class="button-btn btn2">Download CV</a>
+                   
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
+                        <textarea name="Message" rows="6" placeholder="Your Messsage"></textarea>
+                        <button class="button-btn" role="button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Ajitesh. | All Rights Reserved. |<i class="fa-solid fa-heart"></i> Designed by Ajitesh Pawar</p>
+        </div>
+    </div>
+    <script src="Portfolio.js"></script>
+</body>
+</html>
